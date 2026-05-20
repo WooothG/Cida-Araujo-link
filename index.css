@@ -1,0 +1,112 @@
+body {
+     font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.0;
+    min-height: 100vh;
+    min-width: 320px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+   background-color: #FFE1E9;
+
+}
+
+.container {
+
+    width: 65%;
+    max-width:28rem;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 2.3rem;
+    background-color: #FF8FAB;
+    text-align: center;
+
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 0.65rem;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+    max-width: 70%;
+    margin: 0.8rem auto;
+    padding-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+
+
+
+h1 {
+    font-family: arial;
+    font-weight: 98;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    line-height: 1.3;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bi-instagram, .bi-whatsapp {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: #fff;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+/* Remove blue/tap highlight and default link markers for icon links */
+.container a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.container a:focus,
+.container a:active {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Remove sublinhado apenas nos links do footer */
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #ffffff77;
+}
+.redes-sociais a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Define o tamanho perfeito da caixinha do botão */
+    width: 3.5rem;           
+    height: 3.5rem;          
+    
+    /* Configura o contorno vazado e transparente por dentro */
+    background-color: transparent; 
+    border: 1.5px solid #ffffff;  /* Cria o contorno branquinho elegante do seu design */
+    border-radius: 12px;          /* Arredonda sutilmente os cantos do quadrado */
+    
+    text-decoration: none;        /* Limpa qualquer risco ou bug visual de link */
+    transition: all 0.3s ease;    /* Deixa o efeito suave */
+}
+

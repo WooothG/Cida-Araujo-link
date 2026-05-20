@@ -1,5 +1,5 @@
 body {
-     font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 200;
     color: #fff;
     display: flex;
@@ -11,57 +11,54 @@ body {
     overflow-x: hidden;
     word-wrap: break-word;
     background-color: #FFE1E9;
-
-    /* força melhor escala em mobile sem mexer no HTML */
     -webkit-text-size-adjust: 100%;
 }
 
 .container {
-
-    width: 92%; /* aumentado para celular */
+    width: 92%;
     max-width: 28rem;
     height: auto;
-    padding: 2rem;
+    padding: 2.2rem; /* pequeno ajuste */
     border-radius: 2.3rem;
     background-color: #FF8FAB;
     text-align: center;
-
 }
 
 p {
     font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    font-size: 1.15rem; /* aumentado */
-    line-height: 1.8;
+    font-weight: 300; /* melhora leitura no celular */
+    font-size: 1.25rem; /* pequeno aumento */
+    line-height: 1.9;
     text-align: left;
     width: 100%;
-    max-width: 92%;
-    margin: 0.8rem auto;
+    max-width: 94%;
+    margin: 1rem auto;
     padding-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.92);
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
 h1 {
     font-family: arial;
-    font-weight: 98;
-    font-size: 2.6rem; /* aumentado */
-    margin: 0.5rem 0;
-    line-height: 1.3;
+    font-weight: 300;
+    font-size: 2.8rem; /* pequeno aumento */
+    margin: 0.8rem 0;
+    line-height: 1.2;
 }
 
 .avatar {
-    width: 170px; /* aumentado */
-    height: 170px;
+    width: 180px; /* pequeno aumento */
+    height: 180px;
     border-radius: 50%;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
-.bi-instagram, .bi-whatsapp {
-    font-size: 2.6rem; /* aumentado */
-    margin: 0 1rem;
+.bi-instagram,
+.bi-whatsapp {
+    font-size: 2.8rem; /* pequeno aumento */
+    margin: 0 1.2rem;
     color: #fff;
     transition: color 0.3s ease;
     display: inline-block;
@@ -90,7 +87,7 @@ footer a {
 
 footer {
     margin-top: 2rem;
-    font-size: 1.05rem; /* aumentado */
+    font-size: 1.1rem; /* pequeno aumento */
     color: #ffffff77;
 }
 
@@ -98,14 +95,14 @@ footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    
+
     width: 4rem;
     height: 4rem;
-    
-    background-color: transparent; 
+
+    background-color: transparent;
     border: 1.5px solid #ffffff;
     border-radius: 12px;
-    
+
     text-decoration: none;
     transition: all 0.3s ease;
 }

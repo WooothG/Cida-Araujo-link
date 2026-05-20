@@ -15,10 +15,10 @@ body {
 }
 
 .container {
-    width: 92%;
-    max-width: 28rem;
+    width: 96%;
+    max-width: 42rem;
     height: auto;
-    padding: 2.2rem; /* pequeno ajuste */
+    padding: 3rem;
     border-radius: 2.3rem;
     background-color: #FF8FAB;
     text-align: center;
@@ -26,12 +26,12 @@ body {
 
 p {
     font-family: 'Inter', sans-serif;
-    font-weight: 300; /* melhora leitura no celular */
-    font-size: 1.25rem; /* pequeno aumento */
+    font-weight: 300;
+    font-size: 2rem;
     line-height: 1.9;
     text-align: left;
     width: 100%;
-    max-width: 94%;
+    max-width: 95%;
     margin: 1rem auto;
     padding-bottom: 1rem;
     color: rgba(255, 255, 255, 0.92);
@@ -42,14 +42,14 @@ p {
 h1 {
     font-family: arial;
     font-weight: 300;
-    font-size: 2.8rem; /* pequeno aumento */
+    font-size: 4rem;
     margin: 0.8rem 0;
     line-height: 1.2;
 }
 
 .avatar {
-    width: 180px; /* pequeno aumento */
-    height: 180px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     margin-top: 1rem;
     margin-bottom: 1.2rem;
@@ -57,7 +57,7 @@ h1 {
 
 .bi-instagram,
 .bi-whatsapp {
-    font-size: 2.8rem; /* pequeno aumento */
+    font-size: 4rem;
     margin: 0 1.2rem;
     color: #fff;
     transition: color 0.3s ease;
@@ -87,7 +87,7 @@ footer a {
 
 footer {
     margin-top: 2rem;
-    font-size: 1.1rem; /* pequeno aumento */
+    font-size: 1.5rem;
     color: #ffffff77;
 }
 
@@ -105,39 +105,4 @@ footer {
 
     text-decoration: none;
     transition: all 0.3s ease;
-}
-
-/* ADICIONE SOMENTE ISSO NO FINAL DO CSS */
-
-@media screen and (max-width: 480px) {
-
-    .container {
-        width: 95%;
-        padding: 2.5rem;
-    }
-
-    h1 {
-        font-size: 4rem;
-        line-height: 1.2;
-    }
-
-    p {
-        font-size: 2rem;
-        line-height: 1.8;
-        max-width: 95%;
-    }
-
-    .avatar {
-        width: 240px;
-        height: 240px;
-    }
-
-    .bi-instagram,
-    .bi-whatsapp {
-        font-size: 4rem;
-    }
-
-    footer {
-        font-size: 1.6rem;
-    }
 }

@@ -106,3 +106,31 @@ footer {
     text-decoration: none;
     transition: all 0.3s ease;
 }
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem 1.2rem;
+        border-radius: 1.5rem;
+    }
+    h1 {
+        font-size: 2.4rem;
+    }
+    p {
+        font-size: 1.15rem;
+        line-height: 1.7;
+    }
+    .avatar {
+        width: 180px;
+        height: 180px;
+    }
+    .bi-instagram,
+    .bi-whatsapp {
+        font-size: 2.8rem;
+    }
+    .redes-sociais a {
+        width: 3rem;
+        height: 3rem;
+    }
+    footer {
+        font-size: 1.1rem;
+    }
+}

@@ -143,3 +143,10 @@ footer {
         font-size: 1.1rem;
     }
 }
+  .tabela {
+        width: 100%;
+        max-width: 100%;
+        margin: 1.5rem auto 2rem;
+        padding: 0;
+        border-radius: 0;
+    }
